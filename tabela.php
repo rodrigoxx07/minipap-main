@@ -16,11 +16,7 @@ if ($user === 'Otacilio') {
     $_SESSION['user_type'] = 'administrador'; 
 }
 
-// Verifica se o utilizador está autenticado
-if (!isset($_SESSION['user_name']) || !isset($_SESSION['user_type'])) {
-    header("Location: login.php"); // Redireciona para a página de login se não autenticado
-    exit;
-}
+
 
 ?>
 <!DOCTYPE html>
