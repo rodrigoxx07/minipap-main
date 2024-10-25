@@ -1,0 +1,49 @@
+/* Estilos para a tabela */
+table {
+    width: 60%;
+    margin: 20px auto; /* Centraliza a tabela na página */
+    border-collapse: collapse;
+    border: 2px solid #D8BFD8; /* Borda roxo claro */
+}
+
+th, td {
+    border: 2px solid #D8BFD8;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #D8BFD8; /* Fundo roxo claro */
+}
+div{
+    text-align: center; /* para centralizar a div que tem o número de páginas */
+}
+button {
+width: 80px; /* Aumenta a largura dos botões */
+height: 35px; /* Aumenta a altura dos botões */
+color: white;
+border: none;
+cursor: pointer;
+}
+
+    /* Outros estilos mantidos */
+    button {
+        width: 80px;
+        height: 35px;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    /* Estilo para botões ativos */
+    button:enabled {
+        opacity: 1;
+    }
+
+    /* Estilo para botões desativados */
+    button:disabled {
+        background-color: #d3d3d3; /* Cor cinzenta clara para parecer desativado */
+        cursor: not-allowed;
+        opacity: 0.6; /* Transparência para reforçar que está desativado */
+        color: #666666; /* Texto cinza para destacar menos */
+    }

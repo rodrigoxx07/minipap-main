@@ -1,0 +1,94 @@
+/* form_style.css */
+body {
+    background-color: #121212;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 20px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+/* Botão de Voltar */
+.voltar-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #2b2b5b;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.voltar-btn:hover {
+    background-color: #444;
+}
+
+.form-container {
+    background-color: #1c1c3c;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 450px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border: 2px solid #444;
+    min-height: 500px; /* Diminuir altura mínima */
+}
+
+.form-container h2 {
+    text-align: center;
+    background-color: #2b2b5b;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f3f3f3;
+    color: #000;
+    height: 40px;
+}
+
+button {
+    background: linear-gradient(45deg, #6a1b9a, #7e57c2);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    padding: 5px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #7e57c2, #6a1b9a);
+}
