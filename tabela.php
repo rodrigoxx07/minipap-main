@@ -80,6 +80,8 @@ if (!isset($_SESSION['user_name']) || !isset($_SESSION['user_type'])) {
     </script>
 </head>
 <body>
+<a href="logout.php" class="logout-btn">Logout</a>
+
     <form action="adicionar.html" method="post" style="display:inline;">
         <button type="submit" id="btn-adicionar" style="background-color: green; color: white;">Adicionar</button>
     </form>
